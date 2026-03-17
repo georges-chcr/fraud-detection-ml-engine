@@ -13,6 +13,7 @@ app = FastAPI(
 
 try:
     model = joblib.load('models/random_forest_fraud_model.pkl')
+    scaler = joblib.load('models/rob_scaler.pkl')
 except Exception as e:
     model = None
     print(f"Erreur critique : Impossible de charger le modèle. Détails : {e}")
