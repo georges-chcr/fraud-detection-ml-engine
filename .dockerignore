@@ -1,0 +1,13 @@
+env/
+__pycache__/
+*.pyc
+*.pyo
+data/
+notebooks/
+X_test.pkl
+X_train_smote.pkl
+y_test.pkl
+y_train_smote.pkl
+generate_test_cases.py
+.git/
+*.ipynb
